@@ -1,0 +1,467 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    color: rgb(82, 82, 82);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 000px;
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(219, 210, 184, 0.178);
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin-left: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+nav .photoslist img{
+    width: 50px;
+    height: 50px;
+
+}
+nav .photoslist div {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .photoslist div:hover {
+    color: rgb(31, 164, 253);
+}
+nav .photoslist div b {
+    font-size: 12px;
+}
+nav .photoslist {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav p {
+    width: 700px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 40px;
+}
+#submenu {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    transition: 0.5s;
+}
+#submenu {
+    background-color: white;
+    margin-top: 10px;
+    width: 3000px;
+    transform: translateX(-1200px);
+    height: 500px;
+    
+}
+#submenu li {
+    font-size: 26px;
+    color: black;
+    transform: translateY(50px);
+    margin-left: 1150px;
+
+}
+li:hover  #submenu{
+    visibility: visible;
+}
+
+.wonderfull {
+    text-align: center;
+    margin-top: 80px;
+}
+.wonderfull b {
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+}
+.wonderfull h1 {
+    color: black;
+    font-size: 28px;
+    height: 5PX;
+}
+.wonderfull h2 {
+    color: black;
+    font-size: 50px;
+    height: 40px;
+}
+.wonderfull p {
+    font-size: 23px;
+}
+.wonderfull div a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(67, 136, 214);
+    margin-left: 10px;
+}
+.wonderfull div a:hover {
+    text-decoration: underline;
+}
+.wonderfull div button {
+    font-size: 18px;
+    width: 65px;
+    height: 40px;
+    background-color: rgb(67, 136, 214);
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.wonderfull div button:hover {
+    background-color: rgb(71, 142, 224);
+}
+.wonderfull img {
+    width: 750px;
+    height: 750px;
+}
+.proforte {
+    text-align: center;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    border-top: 70px black solid;
+}
+.proforte b {
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+}
+.proforte h1 {
+    color: white;
+    font-size: 28px;
+    height: 5PX;
+}
+.proforte h2 {
+    color: white;
+    font-size: 50px;
+    height: 40px;
+}
+.proforte p {
+    font-size: 23px;
+}
+.proforte div a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(67, 136, 214);
+    margin-left: 10px;
+}
+.proforte div a:hover {
+    text-decoration: underline;
+}
+.proforte div button {
+    font-size: 18px;
+    width: 65px;
+    height: 40px;
+    background-color: rgb(67, 136, 214);
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.proforte div button:hover {
+    background-color: rgb(71, 142, 224);
+}
+.proforte img {
+    width: 1200px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 55% 10%;
+    margin-top: 100px;
+}
+.iphonese {
+    text-align: center;
+    margin-top: 80px;
+}
+.iphonese b {
+    font-size: 26px;
+    height: 5px;
+}
+.iphonese h1 {
+    color: rgb(71, 61, 207);
+    font-size: 45px;
+    height: 20PX;
+}
+.iphonese h2 {
+    color: rgb(71, 61, 207);
+    font-size: 45px;
+    height: 40px;
+}
+.iphonese p {
+    font-size: 23px;
+}
+.iphonese div a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(67, 136, 214);
+    margin-left: 10px;
+}
+.iphonese div a:hover {
+    text-decoration: underline;
+}
+.iphonese div button {
+    font-size: 18px;
+    width: 65px;
+    height: 40px;
+    background-color: rgb(67, 136, 214);
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.iphonese div button:hover {
+    background-color: rgb(71, 142, 224);
+}
+.iphonese img {
+    width: 750px;
+    height: 750px;
+}
+.sephone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 100px;
+}
+.sephone img {
+    width: 450px;
+}
+.menwithphones {
+    background-repeat: no-repeat;
+    background-image: url(../images/download.jpg);
+    width: 1400px;
+    height: 800px;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menwithphones b {
+    font-size: 28px;
+    margin-left: 200px;
+    height: 20px;
+}
+.menwithphones h1 {
+    font-size: 46px;
+    width: 330px;
+    margin-left: 200px;
+
+}
+.menwithphones button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.menwithphones button:hover {
+    background-color: rgb(231, 230, 230);
+}
+.pangled {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.wiirfy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.iphones {
+    display: flex;
+    gap: 50px;
+}
+.iphones .phone {
+    text-align: center;
+}
+.iphones .phone ul {
+    display: flex;
+    gap: 30px;
+}
+.iphones .phone h1 {
+    color: black;
+    font-size: 26px;
+    height: 20px;
+}
+.iphones .phone p {
+    font-size: 18px;
+    height: 30px;
+}
+.iphones .phone button {
+    color: white;
+    background-color: rgb(67, 136, 214);
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+.iphones .phone a {
+    text-decoration: none;
+    color: rgb(67, 136, 214);
+}
+.iphones .phone ul li {
+    list-style: none;
+    width: 1px;
+}
+.iphones .phone ul li div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.gray {
+    background-color: gray;
+}
+.yellow {
+    background-color: rgb(247, 212, 58);
+}
+.crowhite {
+    background-color: antiquewhite;
+}
+.black {
+    background-color: rgb(44, 44, 44);
+}
+.red {
+  background-color: red;
+}
+.green {
+    background-color: forestgreen;
+}
+.croma {
+    background-color: aquamarine;
+}
+.wiirfy h2 {
+    color: black;
+    font-size: 42px;
+    height: 70px;
+}
+.calibri {
+    background-color: rgba(219, 210, 184, 0.178);
+    width: 100%;
+    height: 2000px;
+    margin-top: 100px;
+}
+.calibri .wtsoi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px ;
+}
+.calibri .wtsoi h3 {
+    font-size: 48px;
+    color: black;
+}
+.calibri .wtsoi .contipho{
+    display: flex;
+    gap: 20PX;
+}
+.calibri .wtsoi .contipho .contsave {
+    width: 453px;
+    height: 626px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calibri .wtsoi .contipho .contsave li {
+    list-style: none;
+}
+.calibri .wtsoi .contipho .contsave p {
+    width: 240px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+.calibri .wtsoi .contipho .contsave b {
+    text-align: center;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.calibri .wtsoi .contipho .contsave ul li {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    text-align: center;
+    gap: 40px;
+    height: 126px;
+}
+.calibri .wtsoi .contipho .contsave ul li img {
+    margin-top: 30px;
+    height: 50px;
+    object-fit: cover;
+}
+.calibri .wtsoi .contipho .contsave a {
+    text-decoration: none;
+    font-size: 19px;
+}
+.calibri .wtsoi .contipho .contsave img{
+    margin-top: 137px;
+}
+.calibri .wtsoi .contipho .contsave img:nth-child(3){
+    margin-top: 120px;
+}
+.whyapp {
+    background-image: url(../images/why_apple__ezn1ktvka6oi_large.jpg);
+    background-repeat: no-repeat;
+    width: 75vw;
+    height: 560px;
+    margin-top: 30px;
+    transform: translatex(5px);
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexwhy {
+    display: flex;
+    justify-content: center;
+
+}
+.whyapp h1 {
+    font-size: 38px;
+    width: 400px;
+    height: 70px;
+}
+.whyapp p {
+    font-size: 24px;
+    width: 500px;
+}
+.whyapp a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(67, 136, 214);
+    cursor: pointer;
+}
